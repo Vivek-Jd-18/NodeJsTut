@@ -1,0 +1,2 @@
+Result: data of file 1 and  data of file 2
+Result: data of file 1 and  data of file 2 /n
