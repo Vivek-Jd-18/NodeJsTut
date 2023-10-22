@@ -3,12 +3,14 @@ import path from "path";
 import { players } from "./utils/players";
 import { logger } from "./utils/logger";
 import { authorize } from "./auth/auth";
+import morgan from 'morgan';
 
 // req => middleware => res
 const app = express();  
  
 // to setup middleware and static
 // app.use(express.static('./public'));
+// app.use(morgan('tiny'));
 
 // app.get('/',(req:any,res:any)=>{
 //     res.sendFile(path.resolve(__dirname,'./public/index.html'));
