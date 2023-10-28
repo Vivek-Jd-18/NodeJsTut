@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(63, 107, 124);
+}
+.div-form {
+    background: #043950;
+}
+
+.main-form {
+    margin-left: 36%;
+    padding: 20px 0px 50px 0px;
+}
+
+form {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto
+}
+
+h1 {
+    color: aliceblue;
+}
+
+.form-label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: x-large;
+    margin-left: 9%;
+}
+
+.form-btn {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin-top: 10px;
+    margin-left: 13%;
+    border-radius: 5px;
+    border: 0px solid white;
+}
+
+input{
+    padding: 0.4rem;
+    margin-top: 5px;
+    border: none;
+    min-width: 18rem;
+    height: 2rem;
+    font-size: large;
+    border-radius: 1rem;
+}

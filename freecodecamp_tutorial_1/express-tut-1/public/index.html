@@ -1,16 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Express</title>
 </head>
+
 <body>
-    <div style="background-color: beige;">
-    <div style="background-color: rgb(191, 157, 106);">
-        <img src="./logo.jpeg.jpg" alt="noImage" style="width: 10%;height: 10%;">
-                <h1 style="color: black;">Home page</h1>
+    <div style="background-color: #043950; padding: 0rem;">
+        <div style="background-color: #043950;">
+            <img src="./logo.jpeg.jpg" alt="noImage" style="width: 10%;height: 10%;">
+            <h1 style="color: black;">Home page</h1>
+        </div>
     </div>
+    <div class="div-form" style="flex-direction: column;">
+        <main class="main-form">
+            <form action="/login" method="POST">
+                <h1 class="form-txt-lg">
+                    Typical Form
+                </h1>
+                <div class="form-fields">
+                    <label for="name" class="form-label">Enter Name</label><br>
+                    <input type="text" class="form-input" name="name" id="name" autocomplete="false">
+                </div>
+                <button type="submit" class="form-btn">submit</button>
+            </form>
+        </main>
     </div>
 </body>
+
 </html>
